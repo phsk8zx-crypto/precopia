@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Precopia | Soluções de Impressão Industrial</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-variant": "#dfe3e7",
+                      "surface-container-high": "#e4e9ed",
+                      "secondary-fixed": "#d3e4fe",
+                      "tertiary-fixed-dim": "#4edea3",
+                      "primary-fixed": "#d6e3ff",
+                      "inverse-primary": "#a9c7ff",
+                      "on-primary": "#ffffff",
+                      "on-surface": "#171c1f",
+                      "on-primary-fixed": "#001b3d",
+                      "on-primary-fixed-variant": "#264778",
+                      "surface-tint": "#405f91",
+                      "primary": "#001736",
+                      "outline": "#747780",
+                      "inverse-on-surface": "#edf1f5",
+                      "surface-container-low": "#f0f4f8",
+                      "on-secondary-fixed": "#0b1c30",
+                      "tertiary-container": "#003320",
+                      "on-tertiary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "error": "#ba1a1a",
+                      "on-secondary-fixed-variant": "#38485d",
+                      "on-secondary-container": "#54647a",
+                      "background": "#f6fafe",
+                      "secondary-fixed-dim": "#b7c8e1",
+                      "tertiary": "#001c10",
+                      "surface-bright": "#f6fafe",
+                      "secondary": "#505f76",
+                      "outline-variant": "#c4c6d0",
+                      "secondary-container": "#d0e1fb",
+                      "on-primary-container": "#7594ca",
+                      "primary-container": "#002b5b",
+                      "surface-container": "#eaeef2",
+                      "on-background": "#171c1f",
+                      "primary-fixed-dim": "#a9c7ff",
+                      "on-tertiary-fixed": "#002113",
+                      "on-tertiary-fixed-variant": "#005236",
+                      "on-surface-variant": "#43474f",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-surface": "#2c3134",
+                      "surface-container-highest": "#dfe3e7",
+                      "surface": "#f6fafe",
+                      "error-container": "#ffdad6",
+                      "on-error-container": "#93000a",
+                      "on-secondary": "#ffffff",
+                      "tertiary-fixed": "#6ffbbe",
+                      "on-tertiary-container": "#00a874",
+                      "surface-dim": "#d6dade"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Manrope"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          }
+        }
+      </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-nav { background: rgba(246, 250, 254, 0.7); backdrop-filter: blur(20px); }
+        .spec-overlay { background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(8px); }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-white">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 glass-nav">
+<nav class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<span class="text-xl font-black text-slate-950 dark:text-white tracking-tighter">Precopia</span>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-manrope tracking-tight font-bold text-sm text-slate-500 hover:text-slate-900 transition-colors duration-300" href="#services">Services</a>
+<a class="font-manrope tracking-tight font-bold text-sm text-slate-500 hover:text-slate-900 transition-colors duration-300" href="#printers">Printers</a>
+<a class="font-manrope tracking-tight font-bold text-sm text-slate-500 hover:text-slate-900 transition-colors duration-300" href="#contact">Contact</a>
+<a class="bg-on-tertiary-container text-white px-5 py-2 rounded font-bold text-sm flex items-center gap-2 hover:scale-95 transition-transform duration-200" href="https://wa.me/#">
+<span class="material-symbols-outlined text-sm">chat</span> WhatsApp
+                </a>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="relative pt-32 pb-20 px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="relative z-10">
+<span class="text-primary font-bold text-sm tracking-widest uppercase mb-4 block">Gráfica Profissional</span>
+<h1 class="text-5xl lg:text-7xl font-extrabold text-primary tracking-tighter leading-[1.1] mb-6">
+                    Soluções completas em impressão para sua empresa
+                </h1>
+<p class="text-lg text-secondary mb-10 max-w-lg leading-relaxed">
+                    Gráfica, impressões e venda de impressoras profissionais com a precisão que seu negócio exige. Atendimento premium para demandas industriais.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="bg-primary text-on-primary px-8 py-4 rounded font-bold text-center hover:bg-primary-container transition-colors duration-300" href="#quote">
+                        Solicitar orçamento
+                    </a>
+<a class="bg-on-tertiary-container text-white px-8 py-4 rounded font-bold text-center flex items-center justify-center gap-2 hover:opacity-90 transition-opacity" href="https://wa.me/#">
+<span class="material-symbols-outlined">chat</span> Falar no WhatsApp
+                    </a>
+</div>
+</div>
+<div class="relative lg:h-[600px] rounded-xl overflow-hidden shadow-2xl">
+<img alt="Printing Press" class="absolute inset-0 w-full h-full object-cover" data-alt="Modern high-tech industrial printing facility with large scale offset presses and professional lighting in a clean workspace" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGSrMRYyrbktCpXjidC3h7Z7fprs6cWjoSv-beG9Mvslq1_9joXSbDgfD-Y_rozEp40UIBOIQdjGJ8izX80iVDGWOQfNwztjvdSOTO3BYeuMvPyJ_Cyrp96cc4i8qwAKEJfFmXJJ2c407xEou2Gx1-dRlOB0A8S5jOt6WW41vrTfOmEnKVdddPeJxIDPSifQV1PWK_sRTi6ZjLGhtC6xSAhfw7499_TwwLusHDAgMft-TLlTwr6H7UAflJDiS1m-efRO5YAJjWVLw"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent"></div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-24 px-8 bg-surface-container-low" id="services">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<h2 class="text-4xl font-extrabold text-primary tracking-tight mb-4">Impressão Digital e Off-set</h2>
+<p class="text-secondary max-w-xl">Encontre a melhor Gráfica perto de mim com serviços de alta performance para todas as escalas de produção.</p>
+</div>
+<div class="h-px flex-grow bg-outline-variant/30 mx-8 hidden md:block"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg transition-transform hover:-translate-y-1 duration-300 flex flex-col h-full">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">print</span>
+<h3 class="text-xl font-bold text-primary mb-3">Impressão digital</h3>
+<p class="text-secondary text-sm mb-8 flex-grow">Alta resolução para pequenas e médias tiragens com agilidade e fidelidade de cores.</p>
+<a class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all" href="#quote">
+                        Pedir orçamento <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg transition-transform hover:-translate-y-1 duration-300 flex flex-col h-full">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">contact_mail</span>
+<h3 class="text-xl font-bold text-primary mb-3">Cartões de visita</h3>
+<p class="text-secondary text-sm mb-8 flex-grow">Acabamentos premium, verniz localizado e papéis especiais para causar a melhor primeira impressão.</p>
+<a class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all" href="#quote">
+                        Pedir orçamento <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg transition-transform hover:-translate-y-1 duration-300 flex flex-col h-full">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">branding_watermark</span>
+<h3 class="text-xl font-bold text-primary mb-3">Banner e adesivos</h3>
+<p class="text-secondary text-sm mb-8 flex-grow">Materiais resistentes para comunicação visual interna e externa com cores vibrantes.</p>
+<a class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all" href="#quote">
+                        Pedir orçamento <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg transition-transform hover:-translate-y-1 duration-300 flex flex-col h-full">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">zoom_out_map</span>
+<h3 class="text-xl font-bold text-primary mb-3">Impressão em grandes formatos</h3>
+<p class="text-secondary text-sm mb-8 flex-grow">Soluções para outdoors, fachadas e grandes painéis publicitários com durabilidade extrema.</p>
+<a class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all" href="#quote">
+                        Pedir orçamento <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg transition-transform hover:-translate-y-1 duration-300 flex flex-col h-full">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">auto_fix_high</span>
+<h3 class="text-xl font-bold text-primary mb-3">Serviços personalizados</h3>
+<p class="text-secondary text-sm mb-8 flex-grow">Projetos especiais sob medida. Se você pode imaginar, nós podemos imprimir e montar.</p>
+<a class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all" href="#quote">
+                        Pedir orçamento <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Printer Sales Section -->
+<section class="py-24 px-8" id="printers">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-4xl lg:text-5xl font-extrabold text-primary tracking-tight mb-4">Equipamentos e impressoras profissionais</h2>
+<p class="text-secondary max-w-2xl mx-auto">Venda de impressoras industriais com suporte técnico especializado e as melhores condições do mercado.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Product 1 -->
+<div class="group relative bg-white rounded-lg overflow-hidden transition-all">
+<div class="aspect-[4/5] relative">
+<img alt="Impressora A" class="w-full h-full object-cover" data-alt="Professional industrial laser printer machine in a white studio background with sharp metallic details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC9Gtdg9YyO03NdiA9NJ0PBlbYX1cIbMwkWHB6yUpyMCR6L68WtMHm9WRbDU48WIvuJM8RgZT5m8E-E6kAeCtaxQ8APWt7Jk0fxSkBJx24Ei8MRWs6Vktc5F2nCru_58-d-zJEDe4N-_HSkWtegoUVHLxnwa4qvKOuMmWEdczejdlNzgRbd5HJfqF_C0O3ECIVkBUuC4K_t8sJGeJHsHZ5p0jr7ou_6DcaGKIet31EwtwXp_FKb-MlFKbGg0qGabF-TgepOmxmx2U"/>
+<div class="spec-overlay absolute bottom-4 left-4 right-4 p-4 rounded-lg">
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary block mb-1">Destaque</span>
+<h4 class="text-lg font-bold text-primary">Laser Industrial X1</h4>
+</div>
+</div>
+<div class="p-6">
+<p class="text-sm text-secondary mb-6">Tecnologia de ponta para impressões rápidas e precisas em diversos substratos.</p>
+<a class="w-full bg-primary text-white py-3 rounded font-bold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors" href="https://wa.me/#">
+                            Falar com vendedor
+                        </a>
+</div>
+</div>
+<!-- Product 2 -->
+<div class="group relative bg-white rounded-lg overflow-hidden transition-all">
+<div class="aspect-[4/5] relative">
+<img alt="Impressora B" class="w-full h-full object-cover" data-alt="Wide format eco-solvent printer producing a colorful vinyl graphic banner in a bright workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDBuYLprcs2Cpe-_bFmiWeY_s2uHUjZ3uhoPiqBSS-me5fPnoCuX4PiU3tNYZuchEQfliQcHCOojbK2yV-o0dV6uswNE0civQBaR0ykiBx8maICYebp1Lb_6ZVKhaFTmM0-UBPjVBcrX1MwFscvfkMWqA_mKhu-hwInG9O_NlcLksWqnM5Df8_CPNaM7baUzIAHZCZLWie-bXOvxxn3gUQUQPvZbx6NRUFxwEeDUNGT4OsUf79nBhCl8-JKMSPWT7_rVK0fkkccGE"/>
+<div class="spec-overlay absolute bottom-4 left-4 right-4 p-4 rounded-lg">
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary block mb-1">Versatilidade</span>
+<h4 class="text-lg font-bold text-primary">Eco Solvente Pro</h4>
+</div>
+</div>
+<div class="p-6">
+<p class="text-sm text-secondary mb-6">Ideal para comunicação visual externa com baixo impacto ambiental e cores intensas.</p>
+<a class="w-full bg-primary text-white py-3 rounded font-bold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors" href="https://wa.me/#">
+                            Falar com vendedor
+                        </a>
+</div>
+</div>
+<!-- Product 3 -->
+<div class="group relative bg-white rounded-lg overflow-hidden transition-all">
+<div class="aspect-[4/5] relative">
+<img alt="Impressora C" class="w-full h-full object-cover" data-alt="Heavy duty mass production offset printing machine during operation with mechanical parts visible" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRyztovbeLAyibfU2WQPa9-0kcIrjp9lYuh9PY1qlZ_9-hUb0AZ_BRcaj3q-oX2CtY5S3kXm3yZydwZ4QLSR04FCguYfrSuTlgmEQhbWT_pg3WOQ6uzLMZQP98QRzxrJkIM7DSzQ5fTsN4BGFe9TMagbQkN1xfez3yXfVoQSAhgHzjzhSAUpOC3ve636Q5G4psnvVcGE-9tIQA47sAcv05lrCPar32R3Ym5ifEL5Q9SKo3y-dioUH5wTeze5dTfrKVsTv1ZPt3Mmg"/>
+<div class="spec-overlay absolute bottom-4 left-4 right-4 p-4 rounded-lg">
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary block mb-1">Produção</span>
+<h4 class="text-lg font-bold text-primary">Alta Produção Max</h4>
+</div>
+</div>
+<div class="p-6">
+<p class="text-sm text-secondary mb-6">Projetada para fluxos de trabalho intensos e produção contínua de larga escala.</p>
+<a class="w-full bg-primary text-white py-3 rounded font-bold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors" href="https://wa.me/#">
+                            Falar com vendedor
+                        </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quote Form Section -->
+<section class="py-24 px-8 bg-primary" id="quote">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="text-on-primary">
+<h2 class="text-4xl lg:text-5xl font-extrabold tracking-tight mb-6">Inicie seu projeto com quem entende de impressão</h2>
+<p class="text-primary-fixed-dim text-lg mb-8">Nossa equipe técnica está pronta para analisar sua demanda e oferecer a melhor solução em custo-benefício.</p>
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-on-tertiary-container">verified</span>
+<span class="font-medium">Atendimento ultra rápido</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-tertiary-container">verified</span>
+<span class="font-medium">Qualidade industrial garantida</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-8 lg:p-12 rounded-xl shadow-2xl">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-outline mb-2">Nome Completo</label>
+<input class="w-full bg-surface-container-highest border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3" placeholder="Seu nome" type="text"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-outline mb-2">WhatsApp</label>
+<input class="w-full bg-surface-container-highest border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3" placeholder="(00) 00000-0000" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-outline mb-2">Tipo de Serviço</label>
+<select class="w-full bg-surface-container-highest border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3">
+<option>Impressão Digital</option>
+<option>Grandes Formatos</option>
+<option>Cartões e Papelaria</option>
+<option>Venda de Impressoras</option>
+<option>Outros</option>
+</select>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-outline mb-2">Quantidade</label>
+<input class="w-full bg-surface-container-highest border-0 border-b-2 border-outline-variant/30 focus:ring-0 focus:border-primary transition-colors py-3" placeholder="0" type="number"/>
+</div>
+<div>
+<label class="block text-xs font-bold uppercase tracking-wider text-outline mb-2">Upload de Arquivo (Opcional)</label>
+<label class="w-full bg-surface-container-highest border-0 border-b-2 border-outline-variant/30 py-3 flex items-center justify-center cursor-pointer hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined mr-2">upload_file</span>
+<span class="text-sm">Escolher arquivo</span>
+<input class="hidden" type="file"/>
+</label>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-4 rounded font-bold text-lg hover:bg-primary-container transition-all transform active:scale-[0.98]" type="submit">
+                        Enviar pedido
+                    </button>
+</form>
+</div>
+</div>
+</section>
+<!-- Social Proof Section -->
+<section class="py-24 px-8 bg-surface-container">
+<div class="max-w-7xl mx-auto text-center">
+<h2 class="text-3xl font-extrabold text-primary mb-12">Atendemos empresas e clientes em toda a região</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-8">
+<p class="text-secondary italic mb-6">"A Precopia revolucionou nossa comunicação visual. A qualidade da impressão nos banners é impecável."</p>
+<div class="flex items-center justify-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-white font-bold">R</div>
+<div class="text-left">
+<p class="text-sm font-bold">Roberto S.</p>
+<p class="text-[10px] text-outline uppercase tracking-widest">Diretor de Marketing</p>
+</div>
+</div>
+</div>
+<div class="p-8">
+<p class="text-secondary italic mb-6">"Compramos uma impressora eco solvente e o suporte pós-venda foi fundamental para nossa equipe."</p>
+<div class="flex items-center justify-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-white font-bold">M</div>
+<div class="text-left">
+<p class="text-sm font-bold">Mariana L.</p>
+<p class="text-[10px] text-outline uppercase tracking-widest">Dona de Gráfica</p>
+</div>
+</div>
+</div>
+<div class="p-8">
+<p class="text-secondary italic mb-6">"Entrega rápida e fidelidade total às cores do nosso manual de marca. Indispensável para o dia a dia."</p>
+<div class="flex items-center justify-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container flex items-center justify-center text-white font-bold">A</div>
+<div class="text-left">
+<p class="text-sm font-bold">André C.</p>
+<p class="text-[10px] text-outline uppercase tracking-widest">Arquiteto</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Floating WhatsApp -->
+<a class="fixed bottom-8 right-8 z-[100] bg-on-tertiary-container text-white w-14 h-14 rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-transform active:scale-95 group" href="https://wa.me/#">
+<span class="material-symbols-outlined text-3xl">chat</span>
+<span class="absolute right-16 bg-primary text-white text-xs px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Falar no WhatsApp</span>
+</a>
+<!-- Footer -->
+<footer class="w-full mt-20 bg-slate-50 dark:bg-slate-950">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 py-16 max-w-7xl mx-auto">
+<div class="md:col-span-1">
+<span class="text-lg font-black text-slate-900 dark:text-white">Precopia</span>
+<p class="font-inter text-xs leading-relaxed text-slate-500 mt-4">
+                    Precision Industrial Printing. Referência em qualidade e tecnologia para grandes demandas.
+                </p>
+</div>
+<div>
+<p class="font-inter text-xs leading-relaxed text-slate-900 font-bold mb-4">Localização</p>
+<p class="font-inter text-xs leading-relaxed text-slate-500">Address: Industrial Park 4, Suite 200</p>
+<p class="font-inter text-xs leading-relaxed text-slate-500">Cidade Industrial, CEP 00000-000</p>
+</div>
+<div>
+<p class="font-inter text-xs leading-relaxed text-slate-900 font-bold mb-4">Horário</p>
+<p class="font-inter text-xs leading-relaxed text-slate-500">Hours: Mon-Fri 08:00 - 18:00</p>
+<p class="font-inter text-xs leading-relaxed text-slate-500">Sábados: Sob consulta</p>
+</div>
+<div>
+<p class="font-inter text-xs leading-relaxed text-slate-900 font-bold mb-4">Redes Sociais</p>
+<div class="flex flex-col gap-2">
+<a class="font-inter text-xs leading-relaxed text-slate-500 hover:underline transition-all opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+<a class="font-inter text-xs leading-relaxed text-slate-500 hover:underline transition-all opacity-80 hover:opacity-100" href="#">Instagram</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-slate-200">
+<p class="font-inter text-xs leading-relaxed text-slate-500">
+                © 2024 Precopia. Precision Industrial Printing.
+            </p>
+</div>
+</footer>
+</body></html>
